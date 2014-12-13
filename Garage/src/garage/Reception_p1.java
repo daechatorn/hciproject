@@ -132,7 +132,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         jLabel6.setText("Car brand: ");
 
         servicetype.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        servicetype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "กรุณาเลือกประเภทของการบริการ", "ถ่ายน้ำมันเครื่อง", "ซ่อมรถยนต์", "ตรวจสอบสภาพรถยนต์", "ขายอะไหล่" }));
+        servicetype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ซ่อมรถยนต์", "ถ่ายน้ำมันเครื่อง", "ตรวจสอบสภาพรถยนต์", "ขายอะไหล่" }));
         servicetype.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 servicetypeActionPerformed(evt);
@@ -168,10 +168,15 @@ public class Reception_p1 extends javax.swing.JFrame {
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "1" }));
 
         jComboBox2.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "1" }));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "มกราคม" }));
+        jComboBox2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox2ActionPerformed(evt);
+            }
+        });
 
         jComboBox3.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "2014" }));
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "2557" }));
 
         jButton2.setText("Exist Customer");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -313,7 +318,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         jLabel17.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel17.setText("   receptionemp");
 
-        jButton3.setText("Submit");
+        jButton3.setText("Save");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -813,6 +818,10 @@ public class Reception_p1 extends javax.swing.JFrame {
             dispose();
         } 
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox2ActionPerformed
 
     /**
      * @param args the command line arguments

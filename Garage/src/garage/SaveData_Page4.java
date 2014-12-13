@@ -239,24 +239,29 @@ public class SaveData_Page4 extends javax.swing.JFrame {
 
         jTextField1.setEditable(false);
         jTextField1.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jTextField1.setText("ชื่อของลูกค้า");
+        jTextField1.setText("นายขอเอ");
 
         jTextField3.setEditable(false);
         jTextField3.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jTextField3.setText("เบอร์โทรศัพท์ที่สามารถติดต่อได้");
+        jTextField3.setText("0817778584");
+        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField3ActionPerformed(evt);
+            }
+        });
 
         jLabel12.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel12.setText("Last Name:");
 
         jTextField2.setEditable(false);
         jTextField2.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jTextField2.setText("นามสกุลของลูกค้า");
+        jTextField2.setText("วิชานี้");
 
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
         jTextArea1.setRows(5);
-        jTextArea1.setText("ที่อยู่ของลูกค้า");
+        jTextArea1.setText("123/4-5 ถนนปักธงไชย์ แขวงพระนคร เขตบางกอกน้อย จังหวัดกระบี่ 10112");
         jScrollPane1.setViewportView(jTextArea1);
 
         jLabel16.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
@@ -288,7 +293,7 @@ public class SaveData_Page4 extends javax.swing.JFrame {
         jLabel1.setText("Total : ");
 
         jTextField8.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jTextField8.setText("ค่าบริการทั้งหมด");
+        jTextField8.setText("32,200");
 
         jLabel21.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel21.setText("Amount : ");
@@ -304,43 +309,43 @@ public class SaveData_Page4 extends javax.swing.JFrame {
         });
 
         jComboBox1.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "วันที่" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "1" }));
 
         jComboBox4.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "เดือน" }));
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "มกราคม" }));
 
         jComboBox5.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ปี" }));
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "2557" }));
 
         jLabel15.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel15.setText("Date of arrival:");
 
         jComboBox6.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "วันที่" }));
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "21" }));
 
         jComboBox7.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "เดือน" }));
+        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "มกราคม" }));
 
         jComboBox8.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ปี" }));
+        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "2557" }));
 
         jLabel25.setFont(new java.awt.Font("BrowalliaUPC", 0, 20)); // NOI18N
-        jLabel25.setText("ชื่อสินค้า");
+        jLabel25.setText("น้ำมันเครื่อง");
 
         jLabel26.setFont(new java.awt.Font("BrowalliaUPC", 0, 20)); // NOI18N
-        jLabel26.setText("รายละเอียดสินค้า");
+        jLabel26.setText("ใช้กับเครื่องยนค์ประเภท 4 จังหวะ ");
 
         jLabel27.setFont(new java.awt.Font("BrowalliaUPC", 0, 20)); // NOI18N
-        jLabel27.setText("ชื่อสินค้า");
+        jLabel27.setText("ล้อแมกซ์");
 
         jLabel28.setFont(new java.awt.Font("BrowalliaUPC", 0, 20)); // NOI18N
-        jLabel28.setText("รายละเอียดสินค้า");
+        jLabel28.setText("ล้อแมกซ์ ขนาด 18 นิ้ว");
 
         jLabel29.setFont(new java.awt.Font("BrowalliaUPC", 0, 20)); // NOI18N
-        jLabel29.setText("จำนวนสินค้า");
+        jLabel29.setText("2");
 
         jLabel30.setFont(new java.awt.Font("BrowalliaUPC", 0, 20)); // NOI18N
-        jLabel30.setText("จำนวนสินค้า");
+        jLabel30.setText("4");
 
         jMenu3.setText("File");
 
@@ -752,6 +757,10 @@ public class SaveData_Page4 extends javax.swing.JFrame {
         new Login1();
         dispose();
     }//GEN-LAST:event_jMenuItem1ActionPerformed
+
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField3ActionPerformed
 
     /**
      * @param args the command line arguments

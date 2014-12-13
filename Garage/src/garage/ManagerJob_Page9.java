@@ -132,7 +132,7 @@ public class ManagerJob_Page9 extends javax.swing.JFrame {
         jLabel12.setText("Time : ");
 
         jTextField3.setEditable(false);
-        jTextField3.setText("10, บริการดีมากค่ะ แอรืเย็นสบาย ถ้าจะให้ดี ขอเอวิชานี้นะค่ะ");
+        jTextField3.setText("10, บริการดีมากค่ะ แอรืเย็นสบาย ถ้าจะให้ดี ขอเอวิชานี้นะค่ะ ขอบคุณค่ะ");
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);

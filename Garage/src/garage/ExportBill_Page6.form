@@ -357,9 +357,9 @@
                   <Data value="null"/>
                 </Column>
                 <Column editable="true" title="Bill Number" type="java.lang.Object">
-                  <Data value="G0001"/>
-                  <Data value="G0002"/>
-                  <Data value="G0003"/>
+                  <Data value="B0001"/>
+                  <Data value="B0002"/>
+                  <Data value="B0003"/>
                   <Data value=""/>
                   <Data value="null"/>
                   <Data value="null"/>

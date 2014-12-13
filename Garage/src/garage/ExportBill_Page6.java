@@ -91,9 +91,9 @@ public class ExportBill_Page6 extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"ล้อแมกซ์", "4", "12,000", "G0001"},
-                {"น้ำมันเครื่อง", "2", "200", "G0002"},
-                {"เครื่องยนต์ดีเซล", "1", "20,000", "G0003"},
+                {"ล้อแมกซ์", "4", "12,000", "B0001"},
+                {"น้ำมันเครื่อง", "2", "200", "B0002"},
+                {"เครื่องยนต์ดีเซล", "1", "20,000", "B0003"},
                 {"", null, null, ""},
                 {null, null, null, null},
                 {null, null, null, null},

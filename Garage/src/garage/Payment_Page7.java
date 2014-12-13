@@ -98,7 +98,7 @@ public class Payment_Page7 extends javax.swing.JFrame {
         jLabel1.setText("HCI Payment");
 
         jLabel2.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel2.setText("List of Product:");
+        jLabel2.setText("List of Item:");
 
         jLabel3.setFont(new java.awt.Font("BrowalliaUPC", 0, 36)); // NOI18N
         jLabel3.setText("Recipt order ID: ");
@@ -107,7 +107,7 @@ public class Payment_Page7 extends javax.swing.JFrame {
         jLabel4.setText("xxxxxxxxxxxxxxxxx");
 
         jLabel5.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel5.setText("Total : x บาท");
+        jLabel5.setText("Total : 32,200 บาท");
 
         jLabel6.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel6.setText("End date:");
@@ -116,10 +116,10 @@ public class Payment_Page7 extends javax.swing.JFrame {
         jLabel7.setText("Start date:");
 
         jLabel9.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel9.setText("dd/mm/yyyy");
+        jLabel9.setText("10/12/2557");
 
         jLabel10.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel10.setText("dd/mm/yyyy");
+        jLabel10.setText("13/12/2557");
 
         jLabel8.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel8.setText("รับเงินมา :");
@@ -128,7 +128,7 @@ public class Payment_Page7 extends javax.swing.JFrame {
         jLabel11.setText("เงินทอน :");
 
         jTextField1.setFont(new java.awt.Font("BrowalliaUPC", 0, 18)); // NOI18N
-        jTextField1.setText("500000");
+        jTextField1.setText("50,0000");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -142,7 +142,7 @@ public class Payment_Page7 extends javax.swing.JFrame {
             }
         });
 
-        jLabel12.setText("xxx บาท");
+        jLabel12.setText("17,8000");
 
         jLabel13.setFont(new java.awt.Font("BrowalliaUPC", 0, 36)); // NOI18N
         jLabel13.setText("ฺBill ID : ");
@@ -150,7 +150,7 @@ public class Payment_Page7 extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("BrowalliaUPC", 0, 36)); // NOI18N
 
         jTextField2.setEditable(false);
-        jTextField2.setText("หมายเลขใบเรียกเก็บเงิน");
+        jTextField2.setText("B0001");
         jTextField2.setAutoscrolls(false);
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -160,6 +160,27 @@ public class Payment_Page7 extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
+                {"ล้อแมกซ์", "12,000"},
+                {"น้ำมันเครื่อง", "200"},
+                {"เครื่องยนต์ดีเซล", "20,000"},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
+                {null, null},
                 {null, null},
                 {null, null},
                 {null, null},
