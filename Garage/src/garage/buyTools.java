@@ -47,7 +47,7 @@ public class buyTools extends javax.swing.JFrame {
 
         jLabel1.setText("Reception - ซื้ออะไหล่");
 
-        jLabel3.setText("QTY : ");
+        jLabel3.setText("Amount : ");
 
         jLabel2.setText("Item Name : ");
 
@@ -72,7 +72,12 @@ public class buyTools extends javax.swing.JFrame {
                 .addContainerGap(28, Short.MAX_VALUE))
         );
 
-        qtyValue.setText("จำนวนสินค้า");
+        qtyValue.setText("2");
+        qtyValue.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                qtyValueActionPerformed(evt);
+            }
+        });
 
         jButton1.setText("Ok");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -82,6 +87,11 @@ public class buyTools extends javax.swing.JFrame {
         });
 
         itemDrop.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "โช้คอัพ", "พวงมาลัย", "น้ำมันเครื่องสังเคราะห์", "ยางล้อรถ เกรด A", "ยางล้อรถ เกรด B", "ยางล้อรถ เกรด C", "ยางล้อรถ เกรด D" }));
+        itemDrop.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                itemDropActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -178,6 +188,14 @@ public class buyTools extends javax.swing.JFrame {
         }
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void itemDropActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_itemDropActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_itemDropActionPerformed
+
+    private void qtyValueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_qtyValueActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_qtyValueActionPerformed
 
     /**
      * @param args the command line arguments

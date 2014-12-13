@@ -112,7 +112,7 @@
       <SubComponents>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="QTY : "/>
+            <Property name="text" type="java.lang.String" value="Amount : "/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
@@ -124,8 +124,11 @@
     </Container>
     <Component class="javax.swing.JTextField" name="qtyValue">
       <Properties>
-        <Property name="text" type="java.lang.String" value="&#xe08;&#xe33;&#xe19;&#xe27;&#xe19;&#xe2a;&#xe34;&#xe19;&#xe04;&#xe49;&#xe32;"/>
+        <Property name="text" type="java.lang.String" value="2"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="qtyValueActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
@@ -149,6 +152,9 @@
           </StringArray>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="itemDropActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
