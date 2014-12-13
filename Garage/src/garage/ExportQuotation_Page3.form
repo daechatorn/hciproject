@@ -568,7 +568,7 @@
     <Component class="javax.swing.JTextField" name="jTextField3">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
-        <Property name="text" type="java.lang.String" value="&#xe0a;&#xe37;&#xe48;&#xe2d;&#xe40;&#xe40;&#xe25;&#xe30;&#xe19;&#xe32;&#xe21;&#xe2a;&#xe01;&#xe38;&#xe25;&#xe25;&#xe39;&#xe01;&#xe04;&#xe49;&#xe32;"/>
+        <Property name="text" type="java.lang.String" value="&#xe19;&#xe32;&#xe22;&#xe02;&#xe2d;&#xe40;&#xe2d; &#xe27;&#xe34;&#xe0a;&#xe32;&#xe19;&#xe35;&#xe49;"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField3ActionPerformed"/>
@@ -706,7 +706,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="BrowalliaUPC" size="36" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="xxxxxx Baht"/>
+        <Property name="text" type="java.lang.String" value="15,000 Baht"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton4">

@@ -345,20 +345,30 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
                 .addGap(0, 0, 0))
         );
 
-        jTextField4.setText("วันที่ทำรายการ");
+        jTextField4.setText("13/12/2557");
         jTextField4.setEnabled(false);
 
         jLabel19.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel19.setText("Date To : ");
 
-        jTextField5.setText("วันที่นัดมารับรถ");
+        jTextField5.setText("13/12/2557");
         jTextField5.setEnabled(false);
+        jTextField5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField5ActionPerformed(evt);
+            }
+        });
 
-        jTextField1.setText("ชื่อของลูกค้า");
+        jTextField1.setText("นายขอเอ ");
         jTextField1.setEnabled(false);
 
-        jTextField3.setText("เบอร์โทรศัพท์ที่สามารถติดต่อได้");
+        jTextField3.setText("0817778584");
         jTextField3.setEnabled(false);
+        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField3ActionPerformed(evt);
+            }
+        });
 
         jLabel12.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel12.setText("LastName : ");
@@ -371,7 +381,7 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel3.setText("Status : ");
 
-        jTextField6.setText("นามสกุลของลูกค้า");
+        jTextField6.setText("วิชานี้");
         jTextField6.setEnabled(false);
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Not Start", "Pending", "Completed" }));
@@ -379,7 +389,7 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel4.setText("Service Type : ");
 
-        servicetype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ประเภทของการบริการ", "ถ่ายน้ำมันเครื่อง", "ซ่อมรถยนต์", "ตรวจสอบสภาพรถยนต์", "ขายอะไหล่" }));
+        servicetype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ถ่ายน้ำมันเครื่อง", "ซ่อมรถยนต์", "ตรวจสอบสภาพรถยนต์", "ขายอะไหล่" }));
         servicetype.setEnabled(false);
         servicetype.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1021,6 +1031,14 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
         new popup();
          
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField3ActionPerformed
+
+    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField5ActionPerformed
 
     /**
      * @param args the command line arguments

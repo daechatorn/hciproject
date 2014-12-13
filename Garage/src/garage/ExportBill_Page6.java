@@ -79,6 +79,7 @@ public class ExportBill_Page6 extends javax.swing.JFrame {
         setMinimumSize(new java.awt.Dimension(1024, 768));
         setPreferredSize(new java.awt.Dimension(1024, 768));
 
+        jTextField7.setText("นายขอเอ วิชานี้");
         jTextField7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField7ActionPerformed(evt);
@@ -90,6 +91,22 @@ public class ExportBill_Page6 extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
+                {"ล้อแมกซ์", "4", "12,000", "G0001"},
+                {"น้ำมันเครื่อง", "2", "200", "G0002"},
+                {"เครื่องยนต์ดีเซล", "1", "20,000", "G0003"},
+                {"", null, null, ""},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
                 {null, null, null, null},
                 {null, null, null, null},
                 {null, null, null, null},
