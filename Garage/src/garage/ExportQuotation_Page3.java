@@ -223,7 +223,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel5.setText("Customer Name : ");
 
         jTextField3.setEditable(false);
-        jTextField3.setText("ชื่อเเละนามสกุลลูกค้า");
+        jTextField3.setText("นายขอเอ วิชานี้");
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
@@ -288,7 +288,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel14.setText("Service Charge:");
 
         jLabel20.setFont(new java.awt.Font("BrowalliaUPC", 1, 36)); // NOI18N
-        jLabel20.setText("xxxxxx Baht");
+        jLabel20.setText("15,000 Baht");
 
         jButton4.setFont(new java.awt.Font("Browallia New", 1, 30)); // NOI18N
         jButton4.setText("Next");

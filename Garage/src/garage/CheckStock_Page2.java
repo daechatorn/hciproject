@@ -105,7 +105,7 @@ public class CheckStock_Page2 extends javax.swing.JFrame {
         jLabel4.setText("Amount:");
 
         jTextField1.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jTextField1.setText("จำนวนที่ต้องการ");
+        jTextField1.setText("2");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -124,7 +124,7 @@ public class CheckStock_Page2 extends javax.swing.JFrame {
         jLabel5.setText("Result:");
 
         jLabel6.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel6.setText("มี/ ไม่มี");
+        jLabel6.setText("มี");
 
         jLabel7.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel7.setText("Available:");
@@ -133,7 +133,7 @@ public class CheckStock_Page2 extends javax.swing.JFrame {
         jLabel8.setText("Amount:");
 
         jLabel9.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel9.setText("จำนวนที่เหลืออยู่");
+        jLabel9.setText("1,000");
 
         jLabel10.setBackground(new java.awt.Color(0, 204, 255));
         jLabel10.setFont(new java.awt.Font("BrowalliaUPC", 1, 36)); // NOI18N
@@ -157,13 +157,13 @@ public class CheckStock_Page2 extends javax.swing.JFrame {
         });
 
         jTextField2.setFont(new java.awt.Font("Browallia New", 0, 24)); // NOI18N
-        jTextField2.setText("Search in here / ชื่อสินค้า");
+        jTextField2.setText("น้ำมันเครื่อง");
 
         jLabel11.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel11.setText("Item Name:");
 
         jTextField3.setFont(new java.awt.Font("Browallia New", 0, 24)); // NOI18N
-        jTextField3.setText("Search in here / รหัสสินค้า");
+        jTextField3.setText("O1234");
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
@@ -174,7 +174,7 @@ public class CheckStock_Page2 extends javax.swing.JFrame {
         jLabel12.setText("Description:");
 
         jLabel13.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel13.setText("ttttttttttttttttttttttttttttttttttttttttttttt");
+        jLabel13.setText("ใช้กับเครื่องยนค์ประเภท 4 จังหวะ ");
 
         jMenu2.setText("File");
 
