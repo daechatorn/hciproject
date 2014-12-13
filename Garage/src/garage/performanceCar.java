@@ -46,7 +46,12 @@ public class performanceCar extends javax.swing.JFrame {
 
         jLabel2.setText("Mileage Car : ");
 
-        mileageValue.setText("เลขไมล์รถยนต์");
+        mileageValue.setText("65535");
+        mileageValue.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mileageValueActionPerformed(evt);
+            }
+        });
 
         jButton1.setText("Ok");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -132,6 +137,10 @@ public class performanceCar extends javax.swing.JFrame {
         }
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void mileageValueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mileageValueActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mileageValueActionPerformed
 
     /**
      * @param args the command line arguments
