@@ -88,6 +88,7 @@
           <Properties>
             <Property name="columns" type="int" value="20"/>
             <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#xe23;&#xe16;&#xe21;&#xe35;&#xe40;&#xe2a;&#xe35;&#xe22;&#xe07;&#xe14;&#xe31;&#xe07;&#xe17;&#xe38;&#xe01;&#xe2d;&#xe22;&#xe48;&#xe32;&#xe07; &#xe22;&#xe01;&#xe40;&#xe27;&#xe49;&#xe19;&#xe27;&#xe34;&#xe17;&#xe22;&#xe38;&#xe01;&#xe31;&#xe1a;&#xe41;&#xe15;&#xe23;"/>
           </Properties>
         </Component>
       </SubComponents>

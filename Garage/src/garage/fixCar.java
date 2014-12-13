@@ -49,6 +49,7 @@ public class fixCar extends javax.swing.JFrame {
 
         problemArea.setColumns(20);
         problemArea.setRows(5);
+        problemArea.setText("รถมีเสียงดังทุกอย่าง ยกเว้นวิทยุกับแตร");
         jScrollPane1.setViewportView(problemArea);
 
         jButton1.setText("Ok");
