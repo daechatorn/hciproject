@@ -45,6 +45,7 @@ public class oldcustomer extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("BrowalliaUPC", 0, 18)); // NOI18N
         jLabel1.setText("Customer National ID :");
 
+        jTextField1.setText("11005");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -70,8 +71,8 @@ public class oldcustomer extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null},
-                {null, null},
+                {"1100325796314", "suchi"},
+                {"1100358796424", "tempura"},
                 {null, null},
                 {null, null},
                 {null, null},
