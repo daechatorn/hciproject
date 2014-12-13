@@ -17,7 +17,7 @@ public class ExportBill_Page6 extends javax.swing.JFrame {
      */
     public ExportBill_Page6() {
         initComponents();
-        
+        setResizable(false);
         setVisible(true);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         

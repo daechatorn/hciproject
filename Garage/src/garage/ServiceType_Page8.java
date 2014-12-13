@@ -19,7 +19,7 @@ public class ServiceType_Page8 extends javax.swing.JFrame {
      */
     public ServiceType_Page8() {
         initComponents();
-        
+        setResizable(false);
         setVisible(true);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         if(!(Login1.usercheck.equals("manager"))){

@@ -17,7 +17,7 @@ public class Reception_p1 extends javax.swing.JFrame {
      */
     public Reception_p1() {
         initComponents();
-        
+        setResizable(false);
         setTitle("Reception");
         setVisible(true);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
@@ -311,7 +311,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         });
 
         jLabel17.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel17.setText("receptionemp");
+        jLabel17.setText("   receptionemp");
 
         jButton3.setText("Submit");
         jButton3.addActionListener(new java.awt.event.ActionListener() {

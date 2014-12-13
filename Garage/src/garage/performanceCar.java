@@ -21,6 +21,7 @@ public class performanceCar extends javax.swing.JFrame {
     public performanceCar() {
         initComponents();
         setVisible(true);
+        setResizable(false);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
 
@@ -47,7 +48,7 @@ public class performanceCar extends javax.swing.JFrame {
 
         mileageValue.setText("เลขไมล์รถยนต์");
 
-        jButton1.setText("Submit");
+        jButton1.setText("Ok");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);

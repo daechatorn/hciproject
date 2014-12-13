@@ -17,7 +17,7 @@ public class ManagerJob_Page9 extends javax.swing.JFrame {
      */
     public ManagerJob_Page9() {
         initComponents();
-        
+        setResizable(false);
         setVisible(true);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         

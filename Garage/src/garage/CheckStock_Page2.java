@@ -19,7 +19,7 @@ public class CheckStock_Page2 extends javax.swing.JFrame {
      */
     public CheckStock_Page2() {
         initComponents();
-        
+        setResizable(false);
         setVisible(true);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         if(!(Login1.usercheck.equals("manager"))){
@@ -90,7 +90,6 @@ public class CheckStock_Page2 extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(1024, 768));
         setMinimumSize(new java.awt.Dimension(1024, 768));
-        setPreferredSize(new java.awt.Dimension(1024, 768));
         setResizable(false);
 
         jLabel1.setFont(new java.awt.Font("BrowalliaUPC", 1, 48)); // NOI18N

@@ -20,6 +20,7 @@ public class buyTools extends javax.swing.JFrame {
      */
     public buyTools() {
         initComponents();
+        setResizable(false);
         setVisible(true);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
@@ -73,7 +74,7 @@ public class buyTools extends javax.swing.JFrame {
 
         qtyValue.setText("จำนวนสินค้า");
 
-        jButton1.setText("Submit");
+        jButton1.setText("Ok");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);

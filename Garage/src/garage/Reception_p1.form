@@ -960,7 +960,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="BrowalliaUPC" size="24" style="0"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="receptionemp"/>
+        <Property name="text" type="java.lang.String" value="   receptionemp"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton3">

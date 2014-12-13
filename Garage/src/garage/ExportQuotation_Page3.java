@@ -22,6 +22,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
     public ExportQuotation_Page3() {
         initComponents();
         setLocation(200, 50);
+        setResizable(false);
         setVisible(true);
         setLocation(200, 50);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);

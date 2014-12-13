@@ -20,6 +20,7 @@ public class fixCar extends javax.swing.JFrame {
      */
     public fixCar() {
         initComponents();
+        setResizable(false);
         setVisible(true);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
@@ -50,7 +51,7 @@ public class fixCar extends javax.swing.JFrame {
         problemArea.setRows(5);
         jScrollPane1.setViewportView(problemArea);
 
-        jButton1.setText("Submit");
+        jButton1.setText("Ok");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
