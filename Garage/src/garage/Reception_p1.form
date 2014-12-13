@@ -248,17 +248,18 @@
                           <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="IDNumber" alignment="0" max="32767" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="firstname" min="-2" pref="200" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="lastname" min="-2" pref="200" max="-2" attributes="0"/>
+                              <Component id="lastname" min="-2" pref="165" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="IDNumber" pref="496" max="32767" attributes="0"/>
-                          <Component id="IDNumber1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="IDNumber1" max="32767" attributes="0"/>
                       </Group>
+                      <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -266,9 +267,9 @@
                           <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
                           <Component id="jSeparator6" max="32767" attributes="0"/>
                       </Group>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
@@ -316,16 +317,16 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="servicetype" max="32767" attributes="0"/>
+                          <Component id="servicetype" min="-2" pref="719" max="-2" attributes="0"/>
                           <Group type="102" attributes="0">
                               <Component id="chasis" min="-2" pref="266" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
                               <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="engineNo" max="32767" attributes="0"/>
+                              <Component id="engineNo" min="-2" pref="270" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -348,7 +349,7 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="colorcar" min="-2" pref="200" max="-2" attributes="0"/>
+                      <Component id="colorcar" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
                       <Component id="jComboBox3" min="-2" pref="60" max="-2" attributes="0"/>
@@ -358,8 +359,8 @@
                       <Component id="jComboBox4" min="-2" pref="165" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="colorcar1" min="-2" pref="144" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="colorcar1" pref="146" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
