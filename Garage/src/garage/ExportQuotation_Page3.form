@@ -554,7 +554,7 @@
     <Component class="javax.swing.JTextField" name="jTextField1">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
-        <Property name="text" type="java.lang.String" value="&#xe04;&#xe33;&#xe2d;&#xe18;&#xe34;&#xe1a;&#xe32;&#xe22;&#xe2a;&#xe34;&#xe19;&#xe04;&#xe49;&#xe32;"/>
+        <Property name="text" type="java.lang.String" value="&#xe44;&#xe1f;&#xe14;&#xe49;&#xe32;&#xe19;&#xe2b;&#xe19;&#xe49;&#xe32;&#xe02;&#xe2d;&#xe07;&#xe15;&#xe31;&#xe27;&#xe23;&#xe16;&#xe14;&#xe49;&#xe32;&#xe19;&#xe02;&#xe27;&#xe32;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
@@ -621,7 +621,7 @@
     <Component class="javax.swing.JTextField" name="jTextField6">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
-        <Property name="text" type="java.lang.String" value="&#xe04;&#xe33;&#xe2d;&#xe18;&#xe34;&#xe1a;&#xe32;&#xe22;&#xe2a;&#xe34;&#xe19;&#xe04;&#xe49;&#xe32;"/>
+        <Property name="text" type="java.lang.String" value="&#xe40;&#xe1b;&#xe47;&#xe19;&#xe0a;&#xe34;&#xe49;&#xe19;&#xe2a;&#xe48;&#xe27;&#xe19;&#xe40;&#xe04;&#xe23;&#xe37;&#xe48;&#xe2d;&#xe07;&#xe08;&#xe31;&#xe01;&#xe23;&#xe01;&#xe25;&#xe44;&#xe1f;&#xe1f;&#xe49;&#xe32; &#xe17;&#xe33;&#xe2b;&#xe19;&#xe49;&#xe32;&#xe17;&#xe35;&#xe48;&#xe2d;&#xe31;&#xe14;&#xe2a;&#xe32;&#xe23;&#xe17;&#xe33;&#xe04;&#xe27;&#xe32;&#xe21;&#xe40;&#xe22;&#xe47;&#xe19;"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField6ActionPerformed"/>
@@ -664,7 +664,7 @@
     <Component class="javax.swing.JTextField" name="jTextField12">
       <Properties>
         <Property name="editable" type="boolean" value="false"/>
-        <Property name="text" type="java.lang.String" value="&#xe04;&#xe33;&#xe2d;&#xe18;&#xe34;&#xe1a;&#xe32;&#xe22;&#xe2a;&#xe34;&#xe19;&#xe04;&#xe49;&#xe32;"/>
+        <Property name="text" type="java.lang.String" value="&#xe01;&#xe23;&#xe30;&#xe08;&#xe01;&#xe21;&#xe2d;&#xe07;&#xe02;&#xe49;&#xe32;&#xe07;&#xe2a;&#xe33;&#xe2b;&#xe23;&#xe31;&#xe1a;&#xe21;&#xe2d;&#xe07;&#xe2b;&#xe25;&#xe31;&#xe07;"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel19">

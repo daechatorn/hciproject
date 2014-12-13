@@ -217,7 +217,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel4.setText("Description : ");
 
         jTextField1.setEditable(false);
-        jTextField1.setText("คำอธิบายสินค้า");
+        jTextField1.setText("ไฟด้านหน้าของตัวรถด้านขวา");
 
         jLabel5.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel5.setText("Customer Name : ");
@@ -249,7 +249,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel9.setText("Description : ");
 
         jTextField6.setEditable(false);
-        jTextField6.setText("คำอธิบายสินค้า");
+        jTextField6.setText("เป็นชิ้นส่วนเครื่องจักรกลไฟฟ้า ทำหน้าที่อัดสารทำความเย็น");
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField6ActionPerformed(evt);
@@ -269,7 +269,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel18.setText("Description : ");
 
         jTextField12.setEditable(false);
-        jTextField12.setText("คำอธิบายสินค้า");
+        jTextField12.setText("กระจกมองข้างสำหรับมองหลัง");
 
         jLabel19.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel19.setText("Item Name : ");
