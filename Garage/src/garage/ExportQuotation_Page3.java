@@ -8,19 +8,22 @@ package garage;
 
 import garage.CheckStock_Page2;
 
+
+
 /**
  *
  * @author Student Lab
  */
 public class ExportQuotation_Page3 extends javax.swing.JFrame {
-
+    
     /**
      * Creates new form Export
      */
     public ExportQuotation_Page3() {
         initComponents();
-        
+        setLocation(200, 50);
         setVisible(true);
+        setLocation(200, 50);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         if(!(Login1.usercheck.equals("manager"))){
             jMenuItem14.setEnabled(false);
@@ -91,6 +94,10 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel20 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jButton3 = new javax.swing.JButton();
+        jLabel21 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu3 = new javax.swing.JMenu();
         jMenuItem10 = new javax.swing.JMenuItem();
@@ -202,6 +209,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel3.setText("Amount : ");
 
+        jTextField2.setEditable(false);
         jTextField2.setText("จำนวนของสินค้า");
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -214,11 +222,13 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel4.setText("Description : ");
 
+        jTextField1.setEditable(false);
         jTextField1.setText("คำอธิบายสินค้า");
 
         jLabel5.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel5.setText("Customer Name : ");
 
+        jTextField3.setEditable(false);
         jTextField3.setText("ชื่อเเละนามสกุลลูกค้า");
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -229,6 +239,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel1.setText("Phone : ");
 
+        jTextField4.setEditable(false);
         jTextField4.setText("เบอร์โทรศัพท์ที่สามารถติดต่อได้");
 
         jLabel6.setFont(new java.awt.Font("BrowalliaUPC", 0, 36)); // NOI18N
@@ -237,6 +248,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel8.setText("Amount : ");
 
+        jTextField5.setEditable(false);
         jTextField5.setText("จำนวนของสินค้า");
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -244,6 +256,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel9.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel9.setText("Description : ");
 
+        jTextField6.setEditable(false);
         jTextField6.setText("คำอธิบายสินค้า");
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -257,6 +270,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel17.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel17.setText("Amount : ");
 
+        jTextField11.setEditable(false);
         jTextField11.setText("จำนวนของสินค้า");
 
         jComboBox6.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -264,6 +278,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         jLabel18.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel18.setText("Description : ");
 
+        jTextField12.setEditable(false);
         jTextField12.setText("คำอธิบายสินค้า");
 
         jLabel19.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
@@ -300,6 +315,21 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
+
+        jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel15.setText("Date:");
+
+        jLabel16.setText("13/12/2557");
+
+        jButton3.setText("Logout");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel21.setText("ชื่อพนักงาน:");
 
         jMenu3.setText("File");
 
@@ -453,15 +483,22 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
                 .addGap(25, 25, 25)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel7)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jButton1)
                             .addComponent(jLabel6))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel7)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton3))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel14)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -525,8 +562,12 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jButton3)))
                 .addGap(10, 10, 10)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 8, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -575,14 +616,19 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
                 .addComponent(jSeparator4, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 184, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 139, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel14)
-                    .addComponent(jLabel20)
+                    .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(jButton2)
                         .addComponent(jButton4)
-                        .addComponent(jButton5)))
+                        .addComponent(jButton5))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jLabel14)
+                        .addComponent(jLabel20)))
                 .addGap(26, 26, 26))
         );
 
@@ -610,7 +656,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem9ActionPerformed
 
     private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_jTextField3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -691,11 +737,17 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
     private void jMenuItem21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem21ActionPerformed
         new ManagerJob_Page9();
         dispose();
+        
     }//GEN-LAST:event_jMenuItem21ActionPerformed
 
     private void jMenuItem22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem22ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem22ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        new Login1();
+        dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -735,6 +787,7 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JComboBox jComboBox2;
@@ -747,11 +800,14 @@ public class ExportQuotation_Page3 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
