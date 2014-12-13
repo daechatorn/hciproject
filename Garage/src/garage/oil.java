@@ -7,7 +7,6 @@
 package garage;
 
 import java.awt.Frame;
-import java.util.Date;
 import javax.swing.JOptionPane;
 
 /**
