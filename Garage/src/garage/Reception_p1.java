@@ -140,7 +140,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         });
 
         firstname.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        firstname.setText("ชื่อลูกค้า");
+        firstname.setText("นาย ขอเอ ");
         firstname.setMaximumSize(new java.awt.Dimension(200, 30));
         firstname.setMinimumSize(new java.awt.Dimension(200, 30));
         firstname.setPreferredSize(new java.awt.Dimension(60, 20));
@@ -165,13 +165,13 @@ public class Reception_p1 extends javax.swing.JFrame {
         });
 
         jComboBox1.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "วันที่" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "1" }));
 
         jComboBox2.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "เดือน" }));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "1" }));
 
         jComboBox3.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ปี" }));
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "2014" }));
 
         jButton2.setText("Exist Customer");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -181,7 +181,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         });
 
         jComboBox4.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ยี่ห้อรถยนต์", "TOYOTA", "ISUZU", "อื่นๆ" }));
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "TOYOTA", "ISUZU", "อื่นๆ" }));
 
         jLabel2.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
         jLabel2.setText("Firstname: ");
@@ -190,7 +190,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         jLabel3.setText("LastName: ");
 
         lastname.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        lastname.setText("นามสกุลลูกค้า");
+        lastname.setText("วิชานี้");
         lastname.setMaximumSize(new java.awt.Dimension(200, 30));
         lastname.setMinimumSize(new java.awt.Dimension(200, 30));
         lastname.setPreferredSize(new java.awt.Dimension(60, 20));
@@ -204,7 +204,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         jLabel4.setText("National ID:");
 
         IDNumber.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        IDNumber.setText("เลขประจำตัวประชาชน");
+        IDNumber.setText("1100325796314");
         IDNumber.setMaximumSize(new java.awt.Dimension(200, 30));
         IDNumber.setMinimumSize(new java.awt.Dimension(200, 30));
         IDNumber.setPreferredSize(new java.awt.Dimension(60, 20));
@@ -218,7 +218,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         jLabel13.setText("Phone:");
 
         IDNumber1.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        IDNumber1.setText("หมายเลขโทรศัพท์ติดต่อ");
+        IDNumber1.setText("098-7654321");
         IDNumber1.setMaximumSize(new java.awt.Dimension(200, 30));
         IDNumber1.setMinimumSize(new java.awt.Dimension(200, 30));
         IDNumber1.setPreferredSize(new java.awt.Dimension(60, 20));
@@ -244,7 +244,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         jLabel10.setText("Service Type : ");
 
         license.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        license.setText("เลขทะเบียนรถ");
+        license.setText("กขค 1234");
         license.setMaximumSize(new java.awt.Dimension(200, 30));
         license.setMinimumSize(new java.awt.Dimension(200, 30));
         license.setPreferredSize(new java.awt.Dimension(60, 20));
@@ -258,7 +258,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         licenseProvince.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "กระบี่", "กรุงเทพมหานคร", "กาญจนบุรี", "กาฬสินธุ์", "กำแพงเพชร", "ขอนแก่น", "จันทบุรี", "ฉะเชิงเทรา", "ชลบุรี", "ชัยนาท", "ชัยภูมิ", "ชุมพร", "เชียงราย", "เชียงใหม่", "ตรัง", "ตราด", "ตาก", "นครนายก", "นครปฐม", "นครพนม", "นครราชสีมา", "นครศรีธรรมราช", "นครสวรรค์", "นนทบุรี", "นราธิวาส", "น่าน", "บุรีรัมย์", "ปทุมธานี", "ประจวบคีรีขันธ์", "ปราจีนบุรี", "ปัตตานี", "พระนครศรีอยุธยา", "พะเยา", "พังงา", "พัทลุง", "พิจิตร", "พิษณุโลก", "เพชรบุรี", "เพชรบูรณ์", "แพร่", "ภูเก็ต", "มหาสารคาม", "มุกดาหาร", "แม่ฮ่องสอน", "ยโสธร", "ยะลา", "ร้อยเอ็ด", "ระนอง", "ระยอง", "ราชบุรี", "ลพบุรี", "เลย", "ลำปาง", "ลำพูน", "ศีรสะเกษ", "สกลนคร", "สงขลา", "สตูล", "สมุทรปราการ", "สมุทรสงคราม", "สมุทรสาคร", "สระแก้ว", "สระบุรี", "สิงห์บุรี", "สุโขทัย", "สุพรรณบุรี", "สุราษฎร์ธานี", "สุรินทร์", "หนองคาย", "หนองบัวลำภู", "อ่างทอง", "อำนาจเจริญ", "อุดรธานี", "อุตรดิตถ์", "อุทัยธานี", "อุบลราชธานี", " " }));
 
         engineNo.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        engineNo.setText("หมายเลขเครื่องยนต์");
+        engineNo.setText("5678");
         engineNo.setMaximumSize(new java.awt.Dimension(200, 30));
         engineNo.setMinimumSize(new java.awt.Dimension(200, 30));
         engineNo.setPreferredSize(new java.awt.Dimension(60, 20));
@@ -275,7 +275,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         jLabel14.setText("Customer information");
 
         chasis.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        chasis.setText("เลขตัวถัง");
+        chasis.setText("1234");
         chasis.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 chasisActionPerformed(evt);
@@ -286,7 +286,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         jLabel15.setText("Engine Number: ");
 
         colorcar.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        colorcar.setText("สีของรถ");
+        colorcar.setText("ทอง");
         colorcar.setMaximumSize(new java.awt.Dimension(200, 30));
         colorcar.setMinimumSize(new java.awt.Dimension(200, 30));
         colorcar.setPreferredSize(new java.awt.Dimension(60, 20));
@@ -300,7 +300,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         jLabel16.setText("Model: ");
 
         colorcar1.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
-        colorcar1.setText("รุ่นรถยนต์");
+        colorcar1.setText("RJ-45");
         colorcar1.setMaximumSize(new java.awt.Dimension(200, 30));
         colorcar1.setMinimumSize(new java.awt.Dimension(200, 30));
         colorcar1.setPreferredSize(new java.awt.Dimension(60, 20));
