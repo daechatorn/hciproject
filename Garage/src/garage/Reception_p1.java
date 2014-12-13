@@ -86,6 +86,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         colorcar = new javax.swing.JTextField();
         jLabel16 = new javax.swing.JLabel();
         colorcar1 = new javax.swing.JTextField();
+        jLabel17 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu2 = new javax.swing.JMenu();
         jMenuItem2 = new javax.swing.JMenuItem();
@@ -121,6 +122,8 @@ public class Reception_p1 extends javax.swing.JFrame {
         jMenuBar2.add(jMenu4);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(255, 255, 255));
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setPreferredSize(new java.awt.Dimension(1024, 768));
 
         jLabel1.setFont(new java.awt.Font("BrowalliaUPC", 1, 48)); // NOI18N
@@ -131,7 +134,7 @@ public class Reception_p1 extends javax.swing.JFrame {
 
         submit.setActionCommand("Submit");
         submit.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        submit.setFont(new java.awt.Font("Browallia New", 1, 30)); // NOI18N
+        submit.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         submit.setLabel("Submit");
         submit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -140,8 +143,13 @@ public class Reception_p1 extends javax.swing.JFrame {
         });
 
         reset.setActionCommand("Reset");
-        reset.setFont(new java.awt.Font("Browallia New", 1, 30)); // NOI18N
+        reset.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         reset.setLabel("Reset");
+        reset.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                resetActionPerformed(evt);
+            }
+        });
 
         servicetype.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
         servicetype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "กรุณาเลือกประเภทของการบริการ", "ถ่ายน้ำมันเครื่อง", "ซ่อมรถยนต์", "ตรวจสอบสภาพรถยนต์", "ขายอะไหล่" }));
@@ -185,7 +193,7 @@ public class Reception_p1 extends javax.swing.JFrame {
         jComboBox3.setFont(new java.awt.Font("Browallia New", 0, 20)); // NOI18N
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ปี" }));
 
-        jButton2.setText("Old Customer");
+        jButton2.setText("Exist Customer");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -321,6 +329,9 @@ public class Reception_p1 extends javax.swing.JFrame {
                 colorcar1ActionPerformed(evt);
             }
         });
+
+        jLabel17.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
+        jLabel17.setText("receptionemp");
 
         jMenu2.setText("File");
 
@@ -523,6 +534,8 @@ public class Reception_p1 extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jButton2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton1)
@@ -584,7 +597,8 @@ public class Reception_p1 extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton1)
-                    .addComponent(jButton2))
+                    .addComponent(jButton2)
+                    .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(10, 10, 10)
                 .addComponent(jSeparator1, javax.swing.GroupLayout.PREFERRED_SIZE, 6, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
@@ -646,10 +660,10 @@ public class Reception_p1 extends javax.swing.JFrame {
                     .addComponent(servicetype, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(detailOfService)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 87, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(reset, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(submit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 100, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(submit, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(reset, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(35, 35, 35))
         );
 
@@ -784,7 +798,8 @@ public class Reception_p1 extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        new oldcustomer();
+        dispose();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void lastnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lastnameActionPerformed
@@ -814,6 +829,10 @@ public class Reception_p1 extends javax.swing.JFrame {
     private void colorcar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_colorcar1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_colorcar1ActionPerformed
+
+    private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_resetActionPerformed
 
     /**
      * @param args the command line arguments
@@ -878,6 +897,7 @@ public class Reception_p1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
