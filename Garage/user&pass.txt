@@ -1,0 +1,12 @@
+----------ของ recption--------
+username : receptionemp
+password : re12345678
+
+---------ของ mechanical-------
+username : mechanicemp
+password : me12345678
+
+----------ของ manager----------
+username : manageremp
+password : ma12345678
+-------------------------
