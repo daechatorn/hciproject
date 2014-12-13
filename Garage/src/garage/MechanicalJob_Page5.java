@@ -312,13 +312,13 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
         jLabel10.setText("HCI Mechanical Job");
 
         jLabel9.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel9.setText("Firstname : ");
+        jLabel9.setText("First Name: ");
 
         jLabel24.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel24.setText("Phone :");
+        jLabel24.setText("Phone:");
 
         jLabel25.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel25.setText("Date From : ");
+        jLabel25.setText("Date From: ");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -345,11 +345,11 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
                 .addGap(0, 0, 0))
         );
 
-        jTextField4.setText("13/12/2557");
+        jTextField4.setText("01/12/2557");
         jTextField4.setEnabled(false);
 
         jLabel19.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel19.setText("Date To : ");
+        jLabel19.setText("Date To: ");
 
         jTextField5.setText("13/12/2557");
         jTextField5.setEnabled(false);
@@ -359,7 +359,7 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
             }
         });
 
-        jTextField1.setText("นายขอเอ ");
+        jTextField1.setText("นายเลย์");
         jTextField1.setEnabled(false);
 
         jTextField3.setText("0817778584");
@@ -371,23 +371,23 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
         });
 
         jLabel12.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel12.setText("LastName : ");
+        jLabel12.setText("Last Name: ");
 
         jLabel1.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel1.setText("Queue No : ");
+        jLabel1.setText("Queue No: ");
 
         jLabel2.setText("1");
 
         jLabel3.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel3.setText("Status : ");
+        jLabel3.setText("Status: ");
 
-        jTextField6.setText("วิชานี้");
+        jTextField6.setText("ร็อค");
         jTextField6.setEnabled(false);
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Not Start", "Pending", "Completed" }));
 
         jLabel4.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel4.setText("Service Type : ");
+        jLabel4.setText("Service Type: ");
 
         servicetype.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ถ่ายน้ำมันเครื่อง", "ซ่อมรถยนต์", "ตรวจสอบสภาพรถยนต์", "ขายอะไหล่" }));
         servicetype.setEnabled(false);
@@ -406,13 +406,13 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
         });
 
         jLabel33.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel33.setText("Firstname : ");
+        jLabel33.setText("First Name:");
 
         jLabel34.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel34.setText("Phone :");
+        jLabel34.setText("Phone:");
 
         jLabel35.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel35.setText("Date From : ");
+        jLabel35.setText("Date From:");
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -443,37 +443,37 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
                 .addGap(0, 0, 0))
         );
 
-        jTextField11.setText("วันที่ทำรายการ");
+        jTextField11.setText("01/11/2557");
         jTextField11.setEnabled(false);
 
         jLabel36.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel36.setText("Date To : ");
+        jLabel36.setText("Date To:");
 
-        jTextField12.setText("วันที่นัดมารับรถ");
+        jTextField12.setText("13/12/2557");
         jTextField12.setEnabled(false);
 
-        jTextField13.setText("ชื่อของลูกค้า");
+        jTextField13.setText("นายข้าวมัน");
         jTextField13.setEnabled(false);
 
         jTextField14.setText("เบอร์โทรศัพท์ที่สามารถติดต่อได้");
         jTextField14.setEnabled(false);
 
         jLabel37.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel37.setText("LastName : ");
+        jLabel37.setText("Last Name:");
 
         jLabel38.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel38.setText("Status : ");
+        jLabel38.setText("Status:");
 
-        jTextField15.setText("นามสกุลของลูกค้า");
+        jTextField15.setText("ไก่");
         jTextField15.setEnabled(false);
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Not Start", "Pending", "Completed" }));
 
         jLabel39.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel39.setText("Queue No : ");
+        jLabel39.setText("Queue No:");
 
         jLabel40.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel40.setText("Service Type : ");
+        jLabel40.setText("Service Type:");
 
         jLabel41.setText("2");
 
@@ -486,13 +486,13 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
         });
 
         jLabel51.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel51.setText("Firstname : ");
+        jLabel51.setText("First Name:");
 
         jLabel52.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel52.setText("Phone :");
+        jLabel52.setText("Phone:");
 
         jLabel53.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel53.setText("Date From : ");
+        jLabel53.setText("Date From:");
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -520,37 +520,37 @@ public class MechanicalJob_Page5 extends javax.swing.JFrame {
                 .addGap(0, 0, 0))
         );
 
-        jTextField21.setText("วันที่ทำรายการ");
+        jTextField21.setText("15/11/2557");
         jTextField21.setEnabled(false);
 
         jLabel54.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel54.setText("Date To : ");
+        jLabel54.setText("Date To:");
 
-        jTextField22.setText("วันที่นัดมารับรถ");
+        jTextField22.setText("13/12/2557");
         jTextField22.setEnabled(false);
 
-        jTextField23.setText("ชื่อของลูกค้า");
+        jTextField23.setText("นายกระเพรา");
         jTextField23.setEnabled(false);
 
         jTextField24.setText("เบอร์โทรศัพท์ที่สามารถติดต่อได้");
         jTextField24.setEnabled(false);
 
         jLabel55.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel55.setText("LastName : ");
+        jLabel55.setText("Last Name:");
 
         jLabel56.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel56.setText("Status : ");
+        jLabel56.setText("Status:");
 
-        jTextField25.setText("นามสกุลของลูกค้า");
+        jTextField25.setText("ไข่ดาว");
         jTextField25.setEnabled(false);
 
         jComboBox5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Not Start", "Pending", "Completed" }));
 
         jLabel57.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel57.setText("Queue No : ");
+        jLabel57.setText("Queue No:");
 
         jLabel58.setFont(new java.awt.Font("BrowalliaUPC", 0, 24)); // NOI18N
-        jLabel58.setText("Service Type : ");
+        jLabel58.setText("Service Type:");
 
         jLabel59.setText("3");
 
